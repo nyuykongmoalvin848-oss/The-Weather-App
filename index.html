@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="Assets/Styles/style.css" />
+    <link rel="stylesheet" href="script.js" />
+  </head>
+  <body>
+    <div class="weather">
+      <div class="search">
+        <input
+          type="text"
+          placeholder="Search city..."
+          aria-label="Search city"
+        />
+        <button aria-label="Submit search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+
+      <div class="display">
+        <h1 class="location">Cameroon</h1>
+        <p class="date">Thursday, June 13</p>
+        <div class="weather-icon">
+          <i class="fa-solid fa-cloud-sun-rain"></i>
+        </div>
+        <h2 class="temperature">24°C</h2>
+        <p class="condition">Scattered Showers</p>
+      </div>
+
+      <div class="weather-elements">
+        <div class="items">
+          <i class="fa-solid fa-droplet"></i>
+          <span class="item-value">72%</span>
+          <span class="item-label">Humidity</span>
+        </div>
+        <div class="items">
+          <i class="fa-solid fa-wind"></i>
+          <span class="item-value">14 km/h</span>
+          <span class="item-label">Wind</span>
+        </div>
+        <div class="items">
+          <i class="fa-solid fa-sun"></i>
+          <span class="item-value">5 / 10</span>
+          <span class="item-label">UV Index</span>
+        </div>
+      </div>
+
+      <div class="forecast">
+        <h3>3-Day Forecast</h3>
+        <div class="forecast-row">
+          <span class="day">Fri</span>
+          <i class="fa-solid fa-cloud-sun"></i>
+          <span class="forecast-temp">26°C / 18°C</span>
+        </div>
+        <div class="forecast-row">
+          <span class="day">Sat</span>
+          <i class="fa-solid fa-sun"></i>
+          <span class="forecast-temp">28°C / 19°C</span>
+        </div>
+        <div class="forecast-row">
+          <span class="day">Sun</span>
+          <i class="fa-solid fa-cloud-bolt"></i>
+          <span class="forecast-temp">22°C / 15°C</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
