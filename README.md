@@ -37,7 +37,3 @@ Follow these steps to run the project locally on your machine.
 ## Screenshot
 
 ![alt text](<Assets/Images/Screenshot from 2026-06-13 12-22-54.png>)
-
-## 📜 License
-
-This project is open-source and available under the [MIT License](LICENSE).
